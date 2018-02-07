@@ -1,7 +1,6 @@
 // Code MovieReviews Here// Code MovieReviews Here
 import React, { Component } from 'react';
 
-<<<<<<< HEAD
 const MovieReviews = ({props}) => {
     return(
       <div className="review-list">
