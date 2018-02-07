@@ -1,20 +1,23 @@
 // Code MovieReviews Here// Code MovieReviews Here
 import React, { Component } from 'react';
 
-const MovieReviews = ({props}) => {
+const MovieReviews = ({reviews}) => {
+
+
     return(
       <div className="review-list">
-      {props.reviews.map(review => {
+      {reviews.map(review => {
         return(
           <div className="review">
-          review
+          {review.display_title}
           </div>
         )
       })}
       </div>
     )
-}
-MovieReviews.defaultProp = {
-  reviews: 'reviews'
+  }
+
+MovieReviews.defaultProps = {
+  reviews: []
 }
 export default MovieReviews;
