@@ -1,10 +1,19 @@
 // Code MovieReviews Here// Code MovieReviews Here
 import React, { Component } from 'react';
 
+<<<<<<< HEAD
 const MovieReviews = ({props}) => {
     return(
       <div className="review-list">
       {props.reviews.map(review => {
+=======
+export default class MovieReviews extends Component {
+  render(){
+    const reviews= this.props.reviews
+    return(
+      <div className="review-list">
+      {reviews.map(review => {
+>>>>>>> a066c1e5681ca3b7342f0be35544876232036723
         return(
           <div className="review">
           review
@@ -13,8 +22,15 @@ const MovieReviews = ({props}) => {
       })}
       </div>
     )
+<<<<<<< HEAD
+=======
+  }
+>>>>>>> a066c1e5681ca3b7342f0be35544876232036723
 }
 MovieReviews.defaultProp = {
   reviews: 'reviews'
 }
+<<<<<<< HEAD
 export default MovieReviews;
+=======
+>>>>>>> a066c1e5681ca3b7342f0be35544876232036723

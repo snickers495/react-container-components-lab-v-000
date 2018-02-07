@@ -11,6 +11,7 @@ export default class LatestMovieReviewsContainer extends Component {
   constructor() {
     super();
     this.state = {
+<<<<<<< HEAD
       reviews: []
     }
   }
@@ -24,6 +25,22 @@ export default class LatestMovieReviewsContainer extends Component {
     return(
       <div className="latest-movie-reviews">
         <MovieReviews reviews={this.state.reviews}/>
+=======
+      reviews: [],
+      render: false
+    }
+  }
+
+  componentDidUpdate(prevProps, prevState){
+    if (this.state.reviews !== prevState.reviews) {
+      this.setState({render: true})
+    }
+  }
+  render(){
+    return(
+      <div className="latest-movie-reviews">
+      {this.state.render }
+>>>>>>> a066c1e5681ca3b7342f0be35544876232036723
       </div>
     )
   }
