@@ -39,7 +39,6 @@ export default class LatestMovieReviewsContainer extends Component {
     return(
       <div className="latest-movie-reviews">
       {this.state.render }
->>>>>>> a066c1e5681ca3b7342f0be35544876232036723
       </div>
     )
   }
