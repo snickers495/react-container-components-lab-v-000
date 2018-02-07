@@ -25,7 +25,6 @@ export default class MovieReviews extends Component {
 MovieReviews.defaultProp = {
   reviews: 'reviews'
 }
-<<<<<<< HEAD
 export default MovieReviews;
 =======
 >>>>>>> a066c1e5681ca3b7342f0be35544876232036723
