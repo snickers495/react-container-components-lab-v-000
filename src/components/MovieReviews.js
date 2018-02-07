@@ -20,8 +20,7 @@ export default class MovieReviews extends Component {
       })}
       </div>
     )
-<<<<<<< HEAD
-=======
+
   }
 >>>>>>> a066c1e5681ca3b7342f0be35544876232036723
 }
