@@ -11,7 +11,6 @@ export default class LatestMovieReviewsContainer extends Component {
   constructor() {
     super();
     this.state = {
-<<<<<<< HEAD
       reviews: []
     }
   }
